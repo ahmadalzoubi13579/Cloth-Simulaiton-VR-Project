@@ -506,6 +506,7 @@ function simulate( time ) {
       Math.sin( time / 2000 ),
       Math.cos( time / 3000 ),
       Math.sin( time / 1000 )
+    //  1,1,1
       ).normalize().multiplyScalar( windStrength);
 
     // apply the wind force to the cloth particles
